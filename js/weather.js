@@ -5,7 +5,7 @@
  2. 에러가 발생했을 때 실행 될 함수.
 */
 
-const API_KEY = "10b814d2c68b4280ad8991b985e33ea5";
+const API_KEY = "9a4c64a66457b81b7285172c71bd4b04";
 
 function onGeoOk(position) {
     const lat = position.coords.latitude; //위도
