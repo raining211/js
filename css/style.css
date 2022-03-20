@@ -24,7 +24,7 @@ main {
   border:1px solid transparent;
   padding:10px;
   border-radius: 5px;
-  font-size:16px;
+  font-size:15px;
   width:100%;
 }
 input[type="text"]:focus {
@@ -144,13 +144,13 @@ body::after {
   margin-top:20px;
 }
 #clock span {
-  font-size:3em;
+  font-size:2em;
   margin-right:10px;
   
   font-weight: bold;
 }
 #clock h2 {
-  font-size:2.8em;
+  font-size:2em;
   
   font-weight: bold;
 }
@@ -179,7 +179,7 @@ body::after {
   border:1px solid #589258;
   width:100%;
   text-align: center;
-  font-size:16px;
+  font-size:15px;
   padding:10px 20px;
   border-radius: 5px;;
   background:#6FB76F;
@@ -201,7 +201,7 @@ body::after {
 }
 #weather span {
   position:relative;
-  font-size:16px;
+  font-size:15px;
 }
 #weather span:first-child:before {
   content:'thermostat';
@@ -230,7 +230,7 @@ body::after {
   padding:10px 20px
 }
 #quotes span {
-  font-size: 16px;
+  font-size: 15px;
   display: block;
   
   line-height: 24px;
@@ -254,14 +254,14 @@ body::after {
 
 #todo-form h3 {
   color:#000;
-  font-size:30px;
+  font-size:25px;
   margin-bottom: 20px;
   position: relative;
 }
 #todo-form h3::before {
   content:'view_list';
   font-family: 'Material Icons';
-  font-size:34px;
+  font-size:30px;
   vertical-align: bottom;
 }
 #todo-form input[type="text"] {
@@ -270,7 +270,7 @@ body::after {
 #todo-form input#todo-btn {
   border:1px solid #589258;
   text-align: center;
-  font-size:16px;
+  font-size:15px;
   padding:8px 14px;
   border-radius: 5px;;
   background:#6FB76F;
@@ -292,7 +292,7 @@ body::after {
 }
 #wrapper #todo-list li {
   width:48%;
-  font-size:16px;
+  font-size:15px;
   text-align: left;
   position:relative;
   margin-bottom: 10px;
@@ -329,18 +329,18 @@ body::after {
 }
 
 @media screen and (min-width:1025px) {
-  #greeting {font-size:70px;margin:0;line-height: normal;}
+  #greeting {font-size:50px;margin:0;line-height: normal;}
 
   #weather {width:20%; position: absolute; right:1%; top:1%;margin-bottom: 0;}
   #weather span {display:inline-block;}
   
 
   #clock {padding:0; margin:0;position: absolute;top:1%; left:1%;justify-content: flex-start; text-align: left;}
-  #clock p{font-size:2.1em;}
+  #clock p{font-size:2em;}
 
 
   .login-wrapper {padding:100px 0 0;max-width:1200px;}
-  .login-wrapper h2 {font-size:3em;line-height: normal;text-align: center;}
+  .login-wrapper h2 {font-size:2em;line-height: normal;text-align: center;}
 
 
   #wrapper {max-width:1200px; height:550px;}
