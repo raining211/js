@@ -4,9 +4,9 @@ const clockAmPm = document.querySelector("#clock span");
 const today = document.querySelector("#clock p");
 
 function getTodayLabel() {
-  var week = new Array('일요일', '월요일', '화요일', '수요일', '목요일', '금요일', '토요일');
-  var today = new Date().getDay();
-  var todayLabel = week[today];
+  const week = new Array('일요일', '월요일', '화요일', '수요일', '목요일', '금요일', '토요일');
+  let today = new Date().getDay();
+  let todayLabel = week[today];
   return todayLabel;
 }
 
